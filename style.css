@@ -19,9 +19,9 @@
 #hour {
 
     width: 1.7%;
-    height: 20%;
-    top: 30%;
-    left: 49%;
+    height: 15%;
+    top: 12%;
+    left: 25%;
     opacity: 1;
 
 
@@ -30,19 +30,19 @@
 
 #minute {
     width: 1.2%;
-    height: 25%;
-    top: 25%;
-    left: 49%;
+    height: 20%;
+    top: 7%;
+    left: 26%;
     opacity: 1;
-
 
 }
 
 #second {
     width: 1%;
-    height: 35%;
-    top: 15%;
-    left: 49%;
+    height: 23%;
+    top: 4%;
+    left: 26%;
     opacity: 1;
+
 
 }
