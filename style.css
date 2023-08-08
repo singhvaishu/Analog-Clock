@@ -1,10 +1,14 @@
 #clockContainer {
     position: relative;
     margin: auto;
+    height: 40vmin;
 
-    height: 40vw;
-    width: 40vw;
-    background: url(clock1.png) no-repeat;
+    width: 40vmin;
+
+    background: url(clock1.png) no-repeat center center;
+
+    background-size: contain;
+
 }
 
 #hour,
@@ -17,32 +21,39 @@
 }
 
 #hour {
+    width: 1.5vmin;
 
-    width: 1.7%;
-    height: 15%;
-    top: 12%;
-    left: 25%;
-    opacity: 1;
+    height: 10vmin;
 
+    top: 27%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
 
 }
 
-
 #minute {
-    width: 1.2%;
-    height: 20%;
-    top: 7%;
-    left: 26%;
-    opacity: 1;
+    width: 1vmin;
+
+    height: 15vmin;
+
+    top: 17%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
 
 }
 
 #second {
-    width: 1%;
-    height: 23%;
-    top: 4%;
-    left: 26%;
-    opacity: 1;
+    width: 0.7vmin;
 
+    height: 18vmin;
+
+    top: 8%;
+
+    left: 50%;
+    transform: translateX(-50%);
 
 }
